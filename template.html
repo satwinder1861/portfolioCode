@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta content="width=device-width, intial-scale=1" name="viewport"  >
+      <link rel="stylesheet" type="text/css" media="screen" href="TemplateCss.css">
+      <script src="jquery-3.6.0.min.js" type="text/javascript"></script>
+      <script src="form.js"></script>
+      
+    </head>
+  <body>
+      <div id = "page">
+        <header>
+          <a class="logo" title="Pizza Ordering System" href="http://satwinderproject.ca"><span><h3>PIZZA ORDERING SYSTEM</h3></span></a>
+          <img src="lambda.png" class="img1"></img>
+          <img src="lambda.png" class="img2"></img>
+          <img src="lambda.png" class="img3"></img>
+          <div class="description">
+            
+            <h1>Cloud Engineering</h1>
+            <a class="btn" title="link to Github" href="https://satwinderproject.s3.ca-central-1.amazonaws.com/project.zip">Link to the S3 serverless files to download</a>
+          </div>
+        </header>
+
+
+        <div class="color"></div>
+         <!-- Navigation bar -->
+      <nav>
+        <ul>
+          <li>
+            <a title="Home" href="#">Home</a>
+             <ul>
+               <li>
+                <a title="Sublink1" href="#">Sublink1</a>
+               </li>
+               <li>
+                <a title="Sublink2" href="#">Sublink2</a>
+               </li>
+               <li>
+                <a title="Sublink3" href="#">Sublink3</a>
+                <ul>
+                  <li>
+                   <a title="Sub Sub link1" href="#">Sublink1</a>
+                  </li>
+                  <li>
+                   <a title="Sub Sub link2" href="#">Sublink2</a>
+                  </li>
+                </ul>
+               </li>
+             </ul>
+          </li>
+          <li>
+            <a title="About us" href="#">About us</a>
+            <ul>
+              <li>
+               <a title="Sublink1" href="#">Sublink1</a>
+              </li>
+              <li>
+               <a title="Sublink2" href="#">Sublink2</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a title="Contact us" href="#">Contact us</a>
+          </li>
+        </ul>
+    </nav> 
+        
+        <section class="main">
+            <aside >
+              <div class="content">
+               <img alt="Architect diagram" src="diagram2.PNG">
+              </div>
+              </aside>
+            <aside>
+              <!--   PIZZA ORDER FORM STARTS HERE-->
+              <div class="content">
+                <form class="form" id="myform">
+                  <h2>Customer Order</h2>
+                  <div id="fname" class="fname">
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      placeholder="Full Name"
+                    />
+                  </div>
+
+                  <div id="femail" class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="email@example.com"
+                    />
+                  </div>
+
+                  <div id="faddress" class="form-group">
+                    <label for="address">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="address"
+                      name="address"
+                      placeholder="Address"
+                    />
+                  </div>
+
+
+                  <div id="fsize" class="form-group">
+                      <label for="size">Pizza Size</label>
+                      <select class ="form-control" id="size" name="size">
+                          <option >Small</option>
+                          <option>Large</option>
+                          <option>Extra large</option>
+                      </select>
+                    </div>
+                    
+                  <div id="fkind" class="form-group">
+                      <label for="kind">Pizza kind</label>
+                      <select class ="form-control" id="kind" name="kind">
+                          <option >Pepproni</option>
+                          <option>Veggie</option>
+                          <option>Meat Supreame</option>
+                      </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">
+                    Checkout
+                  </button>
+                </form>
+                </div>
+            </aside>
+          </section>
+
+
+<!-- Aws Certifications -->
+          <section class = "awsCertifications">
+            <aside>
+          <div class="test">
+            <div class ="heading">AWS Certified Cloud Practitioner</div>
+            <div class= "content">
+            <div ><img src="cloudPractitioner.png" > </div>
+            <div >
+              <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis, magna in auctor tristique, lorem nunc fermentum urna, a sodales.</textarea></div>
+            </div>
+          </div>
+        </aside>
+              
+                <aside>
+              <div class="test">
+                <div class ="heading">AWS Certified Solutions Architect-Associate</div>
+                <div class= "content">
+                <div ><img src="awsArchitect.png" > </div>
+                <div >
+                <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis, magna in auctor tristique, lorem nunc fermentum urna, a sodales.</textarea></div>
+                </div>
+              </div>
+              </aside>
+            </section> 
+
+             <section class="developer">
+               <aside>
+              <div class="test">
+                <div class ="heading">AWS Certified Developer-Associate</div>
+                <div class= "content">
+                <div ><img src="awsDeveloper.png" > </div>
+                <div >
+                  <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis, magna in auctor tristique, lorem nunc fermentum urna, a sodales.</textarea></div>
+                </div>
+              </div>
+            </section>
+               
+              
+<!-- Azure Certifications -->
+            
+        <section class = "azureCertifications">
+          <aside>
+            <div class="test">
+              <div class ="heading">Azure Fundamentals</div>
+              <div class= "content">
+              <div ><img src="azureFundamentals.png" > </div>
+              <div >
+                <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis, magna in auctor tristique, lorem nunc fermentum urna, a sodales.</textarea></div>
+              </div>
+            </div>
+            </aside>
+            <aside>
+              <div class="test">
+                <div class ="heading">Azure Administrator-Associate</div>
+                <div class= "content">
+                <div ><img src="azureAdmin.png" > </div>
+                <div >
+                  <textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis, magna in auctor tristique, lorem nunc fermentum urna, a sodales.</textarea>
+              </div>
+                </div>
+              </div>
+              </aside>
+          </section>
+
+
+
+
+
+        <footer>
+          &copy Satwinder Singh
+          <div class="content">
+            <P>Thanks for  visiting my website</P>
+          </div>
+        </footer>
+      
+     
+    </div> 
+  </body>
+</html>
